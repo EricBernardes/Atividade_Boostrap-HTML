@@ -132,10 +132,10 @@
                     Contato
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
+                    <li><a class="dropdown-item" href="./faleconosco.html">Fale Conosco</a></li>
                     <li>
                       <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
-                        >Contratar
+                        >Me contratar
                       </a>
                     </li>
                   </ul>
@@ -151,14 +151,40 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Dados para contato</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">...</div>
-                    <div class="modal-footer">
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Nome</label>
+                          <input
+                            type="nome"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                          />
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                    <!-- <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                       <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -240,10 +266,10 @@
         data-bs-toggle="popover"
         data-bs-placement="right"
         data-bs-custom-class="custom-popover"
-        data-bs-title="Custom popover"
-        data-bs-content="This popover is themed via CSS variables."
+        data-bs-title="Endereço"
+        data-bs-content="Guararema, Alegre - ES"
       >
-        Custom popover
+        Endereço
       </button>
     </div>
 
@@ -263,5 +289,7 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./java.js"></script>
   </body>
 </html>
