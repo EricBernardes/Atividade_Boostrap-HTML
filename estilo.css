@@ -1,0 +1,22 @@
+.tam{
+  max-height: 40rem;
+}
+
+.cards{
+  border: solid red 2px;
+  /* align-items: center; */
+}
+
+.container{
+  border: red solid 2px;
+}
+
+.corrigir{
+  overflow: hidden;
+}
+
+.centralizar{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
