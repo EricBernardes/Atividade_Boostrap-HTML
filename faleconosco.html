@@ -34,8 +34,8 @@
       </div>
 
       <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Motivo do contato:</label>
         <select name="motivo" id="" class="form-select">
-          <option selected disabled>Motivo do contato</option>
           <option value="administrativo">Administrativo</option>
           <option value="pedagogico">Pedagógico</option>
           <option value="marketing">Marketing</option>
@@ -43,9 +43,17 @@
         </select>
       </div>
 
-      <div></div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Tipo de usuário:</label>
+        <select name="tipo" id="" class="form-select">
+          <option value="administrativo">Aluno</option>
+          <option value="pedagogico">Empresa</option>
+          <option value="marketing">Visitante</option>
+        </select>
+      </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="reset" class="btn btn-danger">Limpar</button>
     </form>
 
     <script
